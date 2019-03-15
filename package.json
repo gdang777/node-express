@@ -1,5 +1,5 @@
 {
-  "name": "express",
+  "name": "node-express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/gdang777/node-express/issues"
   },
-  "homepage": "https://github.com/gdang777/node-express#readme"
+  "homepage": "https://github.com/gdang777/node-express#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "hjs": "0.0.6",
+    "hogan-middleware": "^0.2.2"
+  }
 }
